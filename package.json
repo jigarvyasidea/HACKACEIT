@@ -1,0 +1,30 @@
+{
+  "name": "hackbyte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "9.32",
+    "@react-three/fiber": "8.8",
+    "framer-motion": "^8.5.0",
+    "gsap": "^3.11.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-lazy-load-image-component": "^1.5.6",
+    "react-router-dom": "^6.6.2",
+    "sass": "^1.57.1",
+    "three": "^0.145.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "esbuild": "^0.17.4",
+    "vite": "^4.0.0"
+  }
+}
